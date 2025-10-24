@@ -1,3 +1,5 @@
+# Denoising Diffusion Probabilistic Model 
+
 Generating Images with a Denoising Diffusion Probabilistic Model (with input perturbation) This project trains a diffusion model to generate 64x64 images and perturbs inputs during training to reduce error accumulation across denoising steps. The method follows a standard DDPM setup but adds noise to the intermediate states to mimic inference-time mistakes and improve sample quality. Results focus on LSUN churches; outputs include both full sampling chains and final images, with noted limits from low resolution and compute.
 
 - Trains a diffusion model on 64x64 LSUN churches; adds input noise to improve sampling.
